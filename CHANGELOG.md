@@ -2,6 +2,12 @@
 
 All notable changes to `pest-plugin-test-time` will be documented in this file.
 
+## 2.3.0 - 2026-07-29
+
+Add support for Pest 5.
+
+Pest 5 requires PHP 8.4, so the minimum PHP version is now 8.4. Carbon 2 is no longer supported.
+
 ## 2.2.1 - 2025-08-24
 
 **Full Changelog**: https://github.com/spatie/pest-plugin-test-time/compare/2.2.0...2.2.1
