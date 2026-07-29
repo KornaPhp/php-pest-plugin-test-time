@@ -5,7 +5,7 @@ namespace Spatie\PestPluginTestTime;
 use Carbon\Carbon;
 use Spatie\TestTime\TestTime as BaseTestTime;
 
-/** @mixin BaseTestTime|\Carbon\Carbon */
+/** @mixin BaseTestTime|Carbon */
 class TestTime
 {
     public function freeze(?string $time = null, string $format = 'Y-m-d H:i:s'): Carbon
